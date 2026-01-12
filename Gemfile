@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.2"
+gem "rails", "~> 8.0.3"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -20,8 +20,24 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
+gem "sidekiq"
+gem "redis"
+gem "rack-cors"
+gem "rspec-rails"
+
+
+gem "faraday"
+gem "dry-initializer"
+gem "oj"
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "nokogiri"
+
+gem "playwright-ruby-client"
+
+
 
 # Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false

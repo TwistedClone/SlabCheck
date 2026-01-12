@@ -1,0 +1,2 @@
+class GradingCompany < ApplicationRecord
+end
